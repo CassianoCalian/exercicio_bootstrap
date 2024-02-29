@@ -1,0 +1,17 @@
+html,
+body {
+  height: 100%;
+  margin: 0;
+  background-color: aqua !important; /* Importante para garantir que esta cor seja aplicada */
+}
+
+.container {
+  display: flex;
+  align-items: center !important;
+  justify-content: center;
+}
+
+.form-control,
+.form-check-input {
+  margin-bottom: 12px;
+}
